@@ -2,7 +2,6 @@
 import nltk
 
 def download_nltk_resources():
-    """Download required NLTK resources for text processing and sentiment analysis"""
     resources = ['stopwords', 'punkt', 'vader_lexicon']
     for resource in resources:
         try:
